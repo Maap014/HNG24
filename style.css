@@ -163,6 +163,15 @@ a:hover {
     justify-content: space-around;
   }
 
+  .img-container {
+    flex-direction: column-reverse;
+  }
+
+  .day-container {
+    font-weight: 600;
+    padding: 10px 0;
+  }
+
   .goals > li {
     font-size: 20px;
   }
@@ -175,15 +184,6 @@ a:hover {
 @media (min-width: 1024px) {
   .wrapper {
     padding: 25px 5rem;
-  }
-
-  .img-container {
-    flex-direction: column-reverse;
-  }
-
-  .day-container {
-    font-weight: 600;
-    padding: 10px 0;
   }
 
   .email {
