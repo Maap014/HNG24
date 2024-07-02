@@ -35,7 +35,12 @@ h1 {
   text-align: center;
 }
 
+.currentDay {
+  font-size: 19px;
+}
+
 .time-container {
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,10 +70,13 @@ main {
 }
 
 img {
-  border-radius: 15px;
   width: 100%;
   max-width: 350px;
   height: auto;
+}
+
+.day-container {
+  text-align: center;
 }
 .email {
   padding: 10px 0;
@@ -114,7 +122,6 @@ a:hover {
 }
 @media (min-width: 530px) {
   img {
-    border-radius: 15px;
     width: 100%;
     max-width: 300px;
     height: auto;
@@ -174,8 +181,12 @@ a:hover {
     flex-direction: column-reverse;
   }
 
-  .email {
+  .day-container {
     font-weight: 600;
+    padding: 10px 0;
+  }
+
+  .email {
     font-size: 18px;
   }
   .goals-container {
